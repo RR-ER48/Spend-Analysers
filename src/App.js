@@ -31,8 +31,8 @@ export default function App() {
       payments: [...logSection.payments, details],
     }));
   }
-  console.log(accountList);
-  console.log(logSection);
+  // console.log(accountList);
+  // console.log(logSection);
   return (
     <div className="container">
       <Header />
