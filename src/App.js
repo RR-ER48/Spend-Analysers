@@ -102,9 +102,9 @@ function CreateAccount({ handleAccountList }) {
           />
           <input
             type="text"
-            placeholder="Password must a number"
+            placeholder="eg.Ggt678"
             value={number}
-            onChange={(e) => setNumber(+e.target.value)}
+            onChange={(e) => setNumber(e.target.value)}
           />
           <Button onClick={handleCreateAccountSubmit}>Submit</Button>
         </>
@@ -136,7 +136,7 @@ function LogIn({ handleLogIn }) {
         type="text"
         placeholder="Password"
         value={Password}
-        onChange={(e) => setPassword(+e.target.value)}
+        onChange={(e) => setPassword(e.target.value)}
       />
       <Button onClick={handleLogInSubmit}>Log-In</Button>
     </div>
