@@ -102,7 +102,7 @@ function CreateAccount({ handleAccountList }) {
           />
           <input
             type="text"
-            placeholder="eg.Ggt678"
+            placeholder="your password eg.Ggt678"
             value={number}
             onChange={(e) => setNumber(e.target.value)}
           />
